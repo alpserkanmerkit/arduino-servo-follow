@@ -1,0 +1,19 @@
+# Arduino / arduino-cli build output
+build/
+*.hex
+*.elf
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local hook logs (never publish)
+evidence/
+**/evidence/

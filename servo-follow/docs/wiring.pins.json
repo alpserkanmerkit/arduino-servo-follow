@@ -1,0 +1,46 @@
+{
+  "svg": "wiring.svg",
+  "sketches": [
+    "../servo-follow.ino"
+  ],
+  "pins": [
+    {
+      "uno": "5V",
+      "to": "bottom + rail",
+      "step": 1,
+      "symbols": []
+    },
+    {
+      "uno": "GND",
+      "to": "bottom − rail",
+      "step": 2,
+      "symbols": []
+    },
+    {
+      "uno": "D9",
+      "to": "HC-SR04 TRIG",
+      "step": 7,
+      "symbols": [
+        "PIN_TRIG"
+      ]
+    },
+    {
+      "uno": "D10",
+      "to": "HC-SR04 ECHO",
+      "step": 8,
+      "symbols": [
+        "PIN_ECHO"
+      ]
+    },
+    {
+      "uno": "D11",
+      "to": "servo signal",
+      "step": 12,
+      "symbols": [
+        "PIN_SERVO"
+      ]
+    }
+  ],
+  "free_code_pins": [],
+  "unknown": []
+}

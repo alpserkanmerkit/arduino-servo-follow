@@ -1,0 +1,2 @@
+# Wokwi library list (one per line). Servo ships with the Arduino IDE.
+Servo
